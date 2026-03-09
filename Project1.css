@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(at top, rgb(219, 106, 106)10%,rgb(135, 135, 222)50%);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 15rem;
+  position: relative;
+  gap: 2.5rem;
+  color: white;
+}
+h1{
+  /* color: cornsilk; */
+  font-size: 5rem;
+  letter-spacing: .09rem;
+  
+
+}
+#todoInput{
+ font-size: 1.5rem;
+  
+}
+#todoList{
+  background-color: bisque;
+  max-width:25%;
+  height: 25vh;
+  color: black;
+  border-radius: 1rem;
+  position: relative;
+  left: 35%;
+  top: 50%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  padding-top: 2px;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+#addBtn{
+  border: none;
+  width: 5rem;
+  height: 4vh;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: transparent;
+  opacity: 0.7;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.input-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+#addBtn:hover{
+  background-color: aqua;
+}
