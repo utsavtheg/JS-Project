@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Project4.css">
+  <title>Project 4</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Product List</h1>
+      <div class="cart-icon" id="cartIcon">
+        <i class="fa-solid fa-cart-arrow-down"></i>
+        <div class="cart-badge" id="cartBadge">0</div>
+         
+
+      </div>
+    </div>
+    <div class="product-grid" id="productGrid"></div>
+      <div class="overlay" id="overlay"></div>
+      <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <h2>Shopping Cart</h2>
+          <button class="close-btn" id="closeBtn">x</button>
+        </div>
+        <div class="cart-content" id="cartContent">
+          <!-- <div class="cart-item">
+                    <div class="cart-item-image">
+                        <img src="cargo-short.png" alt="Cargo Short">
+                    </div>
+                    <div class="cart-item-details">
+                        <h3 class="cart-item-name">Cargo Short</h3>
+                        <p class="cart-item-price">$90</p>
+                        <div class="quantity-controls">
+                            <button class="qty-btn decrease-btn">-</button>
+                            <div class="quantity">1</div>
+                            <button class="qty-btn increase-btn">+</button>
+                        </div>
+                    </div>
+                    <button class="remove-btn">&times;</button>
+                </div> -->
+        </div>
+        <div class="sidebar-footer" id="sidebarFooter">
+          <div class="total">
+            <span>Total:</span>
+            <span id="totalPrice"></span>
+          </div>
+         <button class="checkout-btn">Checkout</button>
+        </div>
+        <div class="cart-message" id="cartMessage"></div>
+      </div>
+    
+  </div>
+  
+  <script src="Project4.js"></script>
+</body>
+</html>
